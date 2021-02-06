@@ -8,4 +8,4 @@ Uses LowLevelMouseProc provided by the WINAPI to get the next mouse movement bef
 ## IMPORTANT!!!
 
 - I am not responsible for your actions bla bla bla...
-- CTRL+ALT+SHIFT+ESC to exit otherwise reboot
+- CTRL+ALT+SHIFT+ESC to Exit
