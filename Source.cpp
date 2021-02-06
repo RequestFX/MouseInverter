@@ -15,7 +15,7 @@ LRESULT WINAPI LowLevelMouseProc(int nCode, WPARAM wParam, LPARAM lParam) {
 			POINT cursorPos;
 			GetCursorPos(&cursorPos); // get current Mouse Position
 
-			// calc the next Mouse Position and reverse it
+			// calc the next Mouse Position and invert it
 			int deltaX = pMouseStruct->pt.x - cursorPos.x;
 			int deltaY = pMouseStruct->pt.y - cursorPos.y;
 			SetCursorPos(pMouseStruct->pt.x - deltaX * 2, pMouseStruct->pt.y - deltaY * 2);
